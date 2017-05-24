@@ -9,15 +9,15 @@ Hello!
 
 ```js
 export const Component = compose(
-	setPropTypes({
-		_: PropTypes.func.isRequired,
-	}),
+  setPropTypes({
+    _: PropTypes.func.isRequired,
+  }),
 )(function Component(props) {
-	const {
-		_,
-	} = props;
-	return $('p', null,
-		_('Hello'),
-	);
+  const {
+    _,
+  } = props;
+  return $('p', null,
+    _('Hello'),
+  );
 });
 ```
