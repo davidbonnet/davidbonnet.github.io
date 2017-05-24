@@ -1,5 +1,4 @@
 ---
-name: Thoughts
 title: Thoughts
 tagline: 
 description: Thoughts about interaction design and development
